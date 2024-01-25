@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  width: 400px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+
+  background-color: #00b4ce;
+  cursor: pointer;
+
+  a {
+    width: 100%;
+  }
+}
